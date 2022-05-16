@@ -208,7 +208,7 @@ body {
 }
 
 .global {
-display: flex;
+  display: flex;
   justify-content: center;
   margin-top: 20px;
   padding-bottom: 60px;

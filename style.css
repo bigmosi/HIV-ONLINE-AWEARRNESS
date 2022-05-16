@@ -4,16 +4,34 @@
   margin: 0;
 }
 
+body {
+  background: #d3d3d3;
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
 }
 
+.list-layout {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ec5242;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
 .nav-list {
   display: flex;
-  width: 30%;
-  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .nav-list li {
@@ -22,13 +40,60 @@
   justify-content: space-around;
   text-decoration: none;
   font-size: 25px;
+  margin-top: 40px;
+}
+
+.container-logo {
+  width: 100%;
+  margin-left: 20px;
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 40px;
   text-decoration: none;
+  visibility: hidden;
 }
 
 .list-link {
   text-decoration: none;
+  color: #fff;
+}
+
+.closeBtn {
+  font-size: 60px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hamburger {
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.closeBtn-menu {
+  margin-left: 10px;
+}
+
+.page-title {
+  color: #ec5242;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.subtitle {
+  color: #ec5242;
+  text-align: center;
+}
+
+.paragraph {
+  color: #272a31;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 1.5rem;
+  border: 2px solid #fff;
+  margin-left: 10px;
+  margin-right: 10px;
 }

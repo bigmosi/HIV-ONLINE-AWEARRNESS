@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.nav-list {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.nav-list li {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.logo {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.list-link {
+  text-decoration: none;
+}

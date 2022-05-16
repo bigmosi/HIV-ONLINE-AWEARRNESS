@@ -5,7 +5,8 @@
 }
 
 body {
-  background: #d3d3d3;
+  background: #fff;
+  height: 100%;
 }
 
 .navbar {
@@ -23,6 +24,7 @@ body {
   left: 0;
   background-color: #ec5242;
   overflow-x: hidden;
+  overflow-y: hidden;
   transition: 0.5s;
 }
 
@@ -77,7 +79,7 @@ body {
 .page-title {
   color: #ec5242;
   text-align: center;
-  font-size: 17px;
+  font-size: 40px;
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
@@ -96,4 +98,174 @@ body {
   border: 2px solid #fff;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.event-day {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.event-day h4 {
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.event-day p {
+  margin-top: 15px;
+  font-size: 30px;
+  color: #272a31;
+  margin-bottom: 15px;
+}
+
+.background-image {
+  background-image: url("assets/images/program-bg.png");
+  height: 50%;
+}
+
+.card-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background: #272a31;
+  opacity: 0.5;
+}
+
+.card-1 p {
+  color: #fff;
+  text-align: start;
+  width: 60%;
+  line-height: 1.5rem;
+}
+
+.card-1 h3 {
+  color: #ec5242;
+  font-size: 28px;
+  height: 60px;
+  margin-top: 40px;
+}
+
+.main h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+}
+
+.forum {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.forum h3 {
+  color: #ec5242;
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.forum p {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  width: 275px;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+.workshop {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.workshop p {
+  color: #fff;
+  width: 275px;
+}
+
+.workshop h3 {
+  color: #ec5242;
+  font-size: 28px;
+}
+
+.exibition {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.exibition h3 {
+  color: #ec5242;
+  font-size: 28px;
+}
+
+.exibition p {
+  width: 275px;
+  color: #fff;
+  line-height: 1.5rem;
+}
+
+.global {
+display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+
+.bar {
+  background: #ec5242;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  width: 80%;
+  font-size: 20px;
+}
+
+.my-image {
+  width: 50%;
+  height: 35vh;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.speaker h6 {
+  font-size: 18px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.sub-heading h6 {
+  color: #ec5242;
+}
+
+.sub-heading {
+  width: 40%;
+}
+
+.sub-heading p {
+  margin-top: 10px;
+  color: #272a31;
+}
+
+.speaker-image {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.speaker-list {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid red;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }

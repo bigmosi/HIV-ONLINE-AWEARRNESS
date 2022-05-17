@@ -136,4 +136,47 @@
     width: 78%;
 }
 
+.footer {
+    background: #272a31;
+}
+
+.footer h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.lists li {
+    list-style: none;
+    color: #d3d3d3;
+}
+
+.lists-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lists-2 li {
+    list-style-type: none;
+    color: #d3d3d3;
+    margin-top: 20px;
+}
+
+.footer-1 {
+    display: flex;
+    margin: 40px;
+}
+
+.u-list li {
+    list-style-type: none;
+    color: #272a31;
+    font-size: 15px;
+}
 

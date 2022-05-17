@@ -1,0 +1,139 @@
+. {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph P {
+    color: #272a31;
+    font-size: 19px;
+    text-align: center;
+    background: #fff;
+    box-shadow: #fff  inset;
+    border: 2px solid #fff;
+}
+
+.container-1 {
+  background-color: #f8f8ff;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.inquiry {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.inquiry p {
+    margin: 30px;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #272a31;
+}
+
+.summit p {
+    color: #272a31;
+    margin: 20px;
+    text-align: right;
+}
+
+.logo-heading h3 {
+    color: #000000;
+    text-align: left;
+    font-size: 40px;
+    width: 55%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #ec5242 1px solid;
+}
+
+.hiv {
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+}
+
+.logo-heading {
+    display: flex;
+    border: lightblue solid 1px;
+    margin: 30px;
+    padding-bottom: 10px;
+}
+
+.image-logo {
+    text-align: right;
+}
+
+.sub-main p {
+    margin-top: 5px;
+    border-bottom: #ec5242 solid 1px;
+    width: 55%;
+}
+
+.sub-main {
+    margin-top: 0;
+
+}
+
+.container-2 h3 {
+    text-align: center;
+    color: #272a31;
+    font-size: 25px;
+}
+
+.background-images {
+    background-image: url("assets/images/cdc-events2.jpg");
+    height: 50vh;
+    margin: 40px;
+}
+
+.background-images h3 {
+    text-align: center;
+    float: bottom;
+    margin-top: 70px;
+    right: 40%;
+    height: 15vh;
+    position: absolute;
+    color: #fff;
+}
+
+.background-images p {
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 100px;
+    text-align: center;
+    width: 78%;
+}
+
+.background-image-2 {
+    background-image: url("assets/images/cdc-events.jpg");
+    height: 50vh;
+    margin: 40px;
+}
+
+.background-image-2 h3 {
+    text-align: center;
+    float: bottom;
+    margin-top: 70px;
+    right: 40%;
+    height: 15vh;
+    position: absolute;
+    color: #fff;
+}
+
+.background-image-2 p {
+    position: absolute;
+    color: #000;
+    font-size: 18px;
+    margin-top: 100px;
+    text-align: center;
+    width: 78%;
+}
+
+

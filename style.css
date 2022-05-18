@@ -287,10 +287,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  body {
-    color: #d3d3d3;
-  }
-
   .global {
     display: none;
   }
@@ -461,4 +457,13 @@ body {
     padding-bottom: 40px;
     padding-top: 20px;
   }
+
+  .sub-heading h4 {
+    font-size: 25px;
+  }
+
+  .sub-heading h6 {
+    font-size: 17px;
+  }
+
 }

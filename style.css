@@ -87,7 +87,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-
 }
 
 .subtitle {
@@ -316,11 +315,12 @@ body {
     text-align: left;
     width: 15%;
   }
-.card-1:hover {
-  transform: scale(1.075);
-  transition: 0.2s ease-in;
-  cursor: pointer;
-  border: 5px solid #d3d3d3;
+
+  .card-1:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    border: 5px solid #d3d3d3;
   }
 
   .exibition {
@@ -329,22 +329,23 @@ body {
     background: #808080;
   }
 
-.exibition:hover {
-  transform: scale(1.075);
-  transition: 0.2s ease-in;
-  cursor: pointer;
-  border: 5px solid #d3d3d3;
+  .exibition:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    border: 5px solid #d3d3d3;
   }
 
   .forum {
     display: flex;
     flex-direction: column;
   }
-.forum:hover {
-  transform: scale(1.075);
-  transition: 0.2s ease-in;
-  cursor: pointer;
-  border: 5px solid #d3d3d3;
+
+  .forum:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    border: 5px solid #d3d3d3;
   }
 
   .workshop {
@@ -489,12 +490,6 @@ body {
     display: flex;
   }
 
-  .horizontal-line {
-    width: 3%;
-    text-align: center;
-    position: center;
-  }
-
   .center-hor {
     display: flex;
     justify-content: center;
@@ -521,5 +516,8 @@ body {
 
   .horizontal-line {
     border: 1px solid #ec5242;
+    width: 3%;
+    text-align: center;
+    position: center;
   }
 }

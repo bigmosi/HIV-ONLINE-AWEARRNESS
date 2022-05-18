@@ -264,6 +264,11 @@
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
   }
 
   .paragraph p {

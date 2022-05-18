@@ -83,6 +83,11 @@ body {
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
 }
 
 .subtitle {
@@ -104,6 +109,11 @@ body {
 .event-day {
   text-align: center;
   margin-top: 10px;
+  background-image: url("assets/images/illustration 4.png");
+  background-repeat: no-repeat;
+  background-position: 80% 70%;
+  height: 10vh;
+  background-size: 5%;
 }
 
 .event-day h4 {
@@ -134,7 +144,6 @@ body {
 .card-1 p {
   color: #fff;
   text-align: start;
-  width: 60%;
   line-height: 1.5rem;
 }
 
@@ -286,6 +295,16 @@ body {
   margin-top: -350px;
 }
 
+.container-paragraph {
+  background-image: url("assets/images/illustration one2.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: 100%;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
 @media (min-width: 768px) {
   .global {
     display: none;
@@ -295,7 +314,13 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
-    width: 18%;
+    width: 15%;
+  }
+.card-1:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  border: 5px solid #d3d3d3;
   }
 
   .exibition {
@@ -304,14 +329,34 @@ body {
     background: #808080;
   }
 
+.exibition:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  border: 5px solid #d3d3d3;
+  }
+
   .forum {
     display: flex;
     flex-direction: column;
+  }
+.forum:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  border: 5px solid #d3d3d3;
   }
 
   .workshop {
     display: flex;
     flex-direction: column;
+  }
+
+  .workshop:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    border: 5px solid #d3d3d3;
   }
 
   .main {
@@ -430,6 +475,14 @@ body {
   .container-paragraph {
     display: flex;
     justify-content: center;
+    background-image: url("assets/images/illustration one2.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 65%;
+  }
+
+  .container-paragraph p {
+    font-size: 20px;
   }
 
   .main-section {
@@ -464,5 +517,9 @@ body {
 
   .sub-heading h6 {
     font-size: 17px;
+  }
+
+  .horizontal-line {
+    border: 1px solid #ec5242;
   }
 }

@@ -53,7 +53,7 @@
 }
 
 .hiv {
-    width: 50%;
+    width: 80%;
     height: 50%;
     margin: 20px;
 }
@@ -182,5 +182,167 @@
     list-style-type: none;
     color: #272a31;
     font-size: 15px;
+}
+
+.nav-desktop {
+    visibility: hidden;
+}
+
+@media (min-width: 768px) {
+    .desktop-header {
+        display: flex;
+        justify-content: space-around;
+        visibility: visible;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .desktop-list {
+        display: flex;
+        width: 40vw;
+        justify-content: space-between;
+    }
+
+    .desktop-list a {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 25px;
+        color: #272a31;
+    }
+    .desktop-list li {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .list-links {
+        color: #ec5242;
+    }
+
+    .links {
+        border: 10px solid #ec5242;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        width: 250px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .links-2 {
+        width: 100px;
+        margin-bottom: 25px;
+        color: #ec5242;
+    }
+    .links-2 a {
+        color: #ec5242;
+        padding-left: 15px;
+    }
+
+    .about-logo {
+        font-size: 40px;
+        color: #272a31;
+        text-decoration: none;
+    }
+
+    .subtitle {
+        text-align: right;
+        width: 50%;
+    }
+
+    .small-title {
+        display: flex;
+        font-size: 25px;
+    }
+
+    .page-title {
+        color: #ec5242;
+        text-align: center;
+        font-size: 80px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .paragraph p {
+        color: #272a31;
+        text-align: center;
+        margin-top: 20px;
+        line-height: 1.5rem;
+        /*border: 2px solid #fff;*/
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 65%;
+        font-size: 20px;
+    }
+
+    .paragraph {
+        width: 30%;
+        border: #fff 3px solid;
+    }
+
+    .summit {
+        visibility: hidden;
+    }
+
+    .container-1 {
+        background-color: #d3d3d3;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+
+    .date h6 {
+        font-size: 40px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .date  p {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .background-image .exibition {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .background-image .forum {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3px;
+    }
+
+    .background-image .workshop {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3px;
+    }
+
+    .card-box {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .background-images {
+        display: none;
+    }
+
+    .background-image-2 {
+        display: none;
+    }
+
+    .image-logo {
+        display: none;
+    }
+
+
+
 }
 

@@ -165,6 +165,8 @@ body {
   margin-top: 20px;
   opacity: 0.5;
   background: #808080;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .forum h3 {
@@ -188,6 +190,8 @@ body {
   margin-top: 20px;
   opacity: 0.5;
   background: #808080;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .workshop p {

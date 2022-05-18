@@ -88,7 +88,7 @@ body {
 .subtitle {
   color: #ec5242;
   text-align: left;
-  margin-top: -0px;
+  margin-top: -0;
   margin-left: 15px;
 }
 
@@ -367,9 +367,9 @@ body {
     visibility: visible;
   }
 
-.footer-1 h3 {
+  .footer-1 h3 {
     margin-right: 25px;
-  font-size: 40px;
+    font-size: 40px;
   }
 
   .speaker-list {
@@ -435,6 +435,7 @@ body {
     display: flex;
     justify-content: center;
   }
+
   .main-section {
     display: flex;
   }
@@ -460,7 +461,4 @@ body {
     padding-bottom: 40px;
     padding-top: 20px;
   }
-
 }
-
-

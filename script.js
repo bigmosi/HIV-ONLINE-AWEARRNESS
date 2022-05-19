@@ -19,13 +19,13 @@ const Data = [
     speakerName2: 'Dr. Eddie Mukooyo',
     description2: 'Board Chair',
     paragraph2: 'Content Coming soon',
-    image2: 'assets/images/Dr.-Amadou-Alpha-Sall.jpg'
+    image2: 'assets/images/Dr.-Amadou-Alpha-Sall.jpg',
   },
   {
     speakerName1: 'Sudhir Ruparelia',
     description1: 'Sudhir Ruparelia is a businessman and entrepreneur in Uganda.',
     paragraph1: 'He is the Chairman and majority shareholder in the companies of the Ruparelia Group. His investments are mainly in the areas of banking, insurance, education, broadcasting, real estate, floriculture, hotels and resorts.',
-    image1: 'assets/images/Dr.-Yvonne-Mburu.jpg' ,
+    image1: 'assets/images/Dr.-Yvonne-Mburu.jpg',
     speakerName2: 'Prof. Rhoda Wanyenze',
     description2: 'Board Member',
     paragraph2: 'Dr Rhoda Wanyenze MBChB, MPH, PhD, is a Professor and Dean at Makerere University School of Public Health (MakSPH).',
@@ -69,4 +69,3 @@ Data.map((speaker) => {
 </div>`;
   return (speaker);
 });
-

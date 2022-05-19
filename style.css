@@ -9,12 +9,12 @@
 body {
   background: #fff;
   font-family: "lato", sans-serif;
+  width: 100%;
 }
 
 .navbar {
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
 }
 
 .list-layout {
@@ -61,10 +61,6 @@ body {
 .list-link {
   text-decoration: none;
   color: #fff;
-}
-
-.footer-1 {
-  display: none;
 }
 
 .closeBtn {
@@ -126,11 +122,6 @@ body {
   font-size: 30px;
 }
 
-
-.footer {
-  display: none;
-}
-
 .event-day p {
   margin-top: 15px;
   font-size: 30px;
@@ -141,6 +132,7 @@ body {
 .background-image {
   background-image: url("assets/images/program-bg.png");
   height: 50%;
+  margin-top: 150px;
 }
 
 .card-1 {
@@ -311,6 +303,9 @@ body {
   margin-left: 5px;
 }
 
+.footer {
+}
+
 @media screen and (min-width: 768px) {
   .global {
     display: none;
@@ -346,6 +341,7 @@ body {
   .forum {
     display: flex;
     flex-direction: column;
+    width: 20%;
   }
 
   .forum:hover {
@@ -406,14 +402,15 @@ body {
   }
 
   .footer {
-    visibility: visible;
     height: 20vh;
     margin-top: 80px;
   }
 
   .footer-1 {
+    display: flex;
     justify-content: center;
-    visibility: visible;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .footer-1 h3 {
@@ -507,11 +504,14 @@ body {
   .sec {
     display: flex;
     justify-content: center;
+    position: relative;
+    left: 10%;
+    margin-top: 50px;
   }
 
   .background-image {
-    padding-bottom: 40px;
-    padding-top: 20px;
+    padding-bottom:100px;
+    padding-top: 100px;
   }
 
   .sub-heading h4 {
@@ -533,11 +533,42 @@ body {
     background: #272a31;
     padding-top: 10px;
     padding-bottom: 10px;
+    visibility: visible;
   }
 
   .navigation-bar a {
     margin-right: 40px;
     color: #fff;
     text-decoration: none;
+  }
+
+  .horizontal-lines hr {
+    width: 3%;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .horizontal-lines {
+    display: flex;
+    justify-content: center;
+  }
+
+  .program {
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .program a {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .forum1 {
+    text-align: center;
+  }
+
+  .footer h2 {
+    color: #fff;
+    text-align: center;
   }
 }

@@ -275,7 +275,7 @@ body {
     color: #272a31;
     text-align: center;
     margin-top: 20px;
-    line-height: 1.5rem;;
+    line-height: 1.5rem;
   }
 
   .paragraph {
@@ -285,9 +285,6 @@ body {
 
   .summit {
     visibility: hidden;
-  }
-
-  .container-1 {
   }
 
   .date h6 {

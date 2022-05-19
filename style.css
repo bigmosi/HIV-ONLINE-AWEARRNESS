@@ -63,6 +63,10 @@ body {
   color: #fff;
 }
 
+.footer-1 {
+  display: none;
+}
+
 .closeBtn {
   font-size: 60px;
   color: #fff;
@@ -120,6 +124,11 @@ body {
 .event-day h4 {
   margin-top: 15px;
   font-size: 30px;
+}
+
+
+.footer {
+  display: none;
 }
 
 .event-day p {
@@ -287,14 +296,6 @@ body {
   border-right: none;
 }
 
-.footer {
-  visibility: hidden;
-}
-
-.footer-1 {
-  visibility: hidden;
-}
-
 .desktop-nav {
   visibility: hidden;
   margin-top: -350px;
@@ -433,9 +434,10 @@ body {
 
   .desktop-nav {
     display: flex;
-    margin: 10px;
     justify-content: space-around;
     visibility: visible;
+    margin-top: 30px;
+    background: #fff;
   }
 
   .nav-header {
@@ -521,9 +523,21 @@ body {
   }
 
   .horizontal-line {
-    border: 1px solid #ec5242;
     width: 3%;
     text-align: center;
     position: center;
+  }
+
+  .navigation-bar {
+    text-align: right;
+    background: #272a31;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navigation-bar a {
+    margin-right: 40px;
+    color: #fff;
+    text-decoration: none;
   }
 }

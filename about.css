@@ -17,6 +17,10 @@ body {
   border: 2px solid #fff;
 }
 
+.navigation-bar {
+  display: none;
+}
+
 .container-1 {
   background-color: #f8f8ff;
   padding-bottom: 50px;
@@ -174,8 +178,7 @@ body {
 }
 
 .footer-1 {
-  display: flex;
-  margin: 40px;
+  display: none;
 }
 
 .u-list li {
@@ -271,6 +274,13 @@ body {
     -moz-text-fill-color: transparent;
   }
 
+  .big-title {
+    background-image: url("assets/images/illustration7.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: 10%;
+  }
+
   .paragraph p {
     color: #272a31;
     text-align: center;
@@ -284,7 +294,7 @@ body {
   }
 
   .summit {
-    visibility: hidden;
+    display: none;
   }
 
   .date h6 {
@@ -332,9 +342,14 @@ body {
 
   .about-para {
     text-align: center;
-    display: flex;
-    justify-content: center;
     margin-top: 50px;
+    background-image: url("assets/images/illustration one2.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: 30%;
+    margin-right: 5px;
+    margin-left: 5px;
+    align-items: center;
   }
 
   .about-para p {
@@ -345,6 +360,7 @@ body {
     border: 5px solid #fff;
     box-shadow: #fff;
     background: #fff;
+    margin-top: 30px;
   }
 
   .contact-us p {
@@ -385,5 +401,17 @@ body {
     justify-content: center;
     position: relative;
     left: 20%;
+  }
+
+  .contact-us {
+    background-image: url("assets/images/illustration6.png");
+    background-repeat: no-repeat;
+    background-size: 3%;
+    background-position: 90%;
+    padding: 8px;
+  }
+
+  .kl {
+    width: 5%;
   }
 }

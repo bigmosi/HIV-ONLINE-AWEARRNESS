@@ -303,9 +303,6 @@ body {
   margin-left: 5px;
 }
 
-.footer {
-}
-
 @media screen and (min-width: 768px) {
   .global {
     display: none;
@@ -510,7 +507,7 @@ body {
   }
 
   .background-image {
-    padding-bottom:100px;
+    padding-bottom: 100px;
     padding-top: 100px;
   }
 

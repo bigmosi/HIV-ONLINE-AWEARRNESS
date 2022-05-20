@@ -249,7 +249,6 @@ body {
 .exibition p {
   width: 275px;
   color: #fff;
-  line-height: 1.5rem;
 }
 
 .global {
@@ -643,6 +642,17 @@ body {
   }
 
   .image-1 {
-    width: 35%;
+    width: 25%;
+  }
+
+  .borders1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .borders {
+    border: 1px solid #ec5242;
+    width: 60px;
+    margin-top: 25px;
   }
 }

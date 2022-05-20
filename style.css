@@ -344,13 +344,13 @@ body {
     height: 20vh;
   }
 
-.card-1 h3 {
-  text-align: center;
-}
+  .card-1 h3 {
+    text-align: center;
+  }
 
-.card-1 p {
-  text-align: center;
-}
+  .card-1 p {
+    text-align: center;
+  }
 
   .card-1:hover {
     transform: scale(1.075);
@@ -371,7 +371,7 @@ body {
     text-align: center;
   }
 
-.exibition p {
+  .exibition p {
     text-align: center;
   }
 
@@ -413,7 +413,7 @@ body {
     height: 20vh;
   }
 
-.workshop p {
+  .workshop p {
     text-align: center;
   }
 

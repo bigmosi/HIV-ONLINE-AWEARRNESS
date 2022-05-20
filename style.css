@@ -225,12 +225,12 @@ body {
 
 .workshop p {
   color: #fff;
-  width: 275px;
+  width: 200px;
 }
 
 .workshop h3 {
-  color: #ec5242;
-  font-size: 28px;
+  color: red;
+  font-size: 20px;
 }
 
 .exibition {
@@ -242,12 +242,12 @@ body {
 }
 
 .exibition h3 {
-  color: #ec5242;
-  font-size: 28px;
+  font-size: 20px;
+  color: red;
 }
 
 .exibition p {
-  width: 275px;
+  width: 200px;
   color: #fff;
 }
 
@@ -265,6 +265,10 @@ body {
   padding: 20px;
   width: 80%;
   font-size: 20px;
+}
+
+.footer-logo {
+  display: none;
 }
 
 .my-image {
@@ -368,10 +372,16 @@ body {
 
   .exibition h3 {
     text-align: center;
+    color: red;
   }
 
   .exibition p {
     text-align: center;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    color: #fff;
   }
 
   .exibition:hover {
@@ -391,10 +401,13 @@ body {
 
   .forum h3 {
     text-align: center;
+    color: red;
   }
 
   .forum p {
     text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .forum:hover {
@@ -414,10 +427,15 @@ body {
 
   .workshop p {
     text-align: center;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
   }
 
   .workshop h3 {
     text-align: center;
+    color: red;
   }
 
   .workshop:hover {
@@ -466,9 +484,9 @@ body {
   }
 
   .footer {
-    height: 20vh;
     margin-top: 80px;
     background-color: #272a31;
+
   }
 
   .footer h2 {
@@ -654,5 +672,10 @@ body {
     border: 1px solid #ec5242;
     width: 60px;
     margin-top: 25px;
+  }
+
+  .footer-logo {
+    width: 5%;
+    display: block;
   }
 }

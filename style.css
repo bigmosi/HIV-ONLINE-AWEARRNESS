@@ -473,8 +473,10 @@ body {
   }
 
   .footer h2 {
-    color: #56585c;;
+    color: #56585c;
+    text-align: center;
   }
+
 
   .footer-1 {
     display: flex;
@@ -485,7 +487,7 @@ body {
 
   .footer-1 h3 {
     margin-right: 25px;
-    font-size: 25pxpx;
+    font-size: 25px;
   }
 
   .speaker-list {
@@ -634,11 +636,6 @@ body {
   }
 
   .forum1 {
-    text-align: center;
-  }
-
-  .footer h2 {
-    color: #fff;
     text-align: center;
   }
 

@@ -1,4 +1,4 @@
-. {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -106,6 +106,22 @@ body {
   color: #fff;
 }
 
+.sub-sections {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.sub-sections p {
+  margin-top: 10px;
+}
+
+.container-2 {
+  text-align: center;
+  margin: 5px;
+}
+
 .background-images p {
   position: absolute;
   color: #fff;
@@ -185,6 +201,15 @@ body {
 
 .nav-desktop {
   visibility: hidden;
+}
+
+.about-para p {
+  text-align: center;
+}
+
+.contact-us p {
+  text-align: center;
+  margin: 5px;
 }
 
 @media (min-width: 768px) {

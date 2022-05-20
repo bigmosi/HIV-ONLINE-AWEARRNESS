@@ -149,7 +149,6 @@ body {
   font-size: 30px;
   color: #272a31;
   margin-bottom: 15px;
-  color: #272a31;
 }
 
 .background-image {
@@ -195,7 +194,6 @@ body {
   margin-top: 20px;
   opacity: 0.5;
   background-color: rgba(150, 150, 150, 0.4);
-
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -347,12 +345,12 @@ body {
   }
 
 .card-1 h3 {
-    text-align: center;
-  }
+  text-align: center;
+}
 
 .card-1 p {
-    text-align: center;
-  }
+  text-align: center;
+}
 
   .card-1:hover {
     transform: scale(1.075);
@@ -367,7 +365,6 @@ body {
     background-color: rgba(150, 150, 150, 0.4);
     margin: 5px;
     height: 20vh;
-
   }
 
   .exibition h3 {
@@ -391,7 +388,6 @@ body {
     background-color: rgba(150, 150, 150, 0.4);
     margin: 5px;
     height: 20vh;
-
   }
 
   .forum h3 {

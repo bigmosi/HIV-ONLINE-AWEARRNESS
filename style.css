@@ -469,6 +469,11 @@ body {
   .footer {
     height: 20vh;
     margin-top: 80px;
+    background-color: #272a31;
+  }
+
+  .footer h2 {
+    color: #56585c;;
   }
 
   .footer-1 {
@@ -480,7 +485,7 @@ body {
 
   .footer-1 h3 {
     margin-right: 25px;
-    font-size: 40px;
+    font-size: 25pxpx;
   }
 
   .speaker-list {
@@ -638,6 +643,10 @@ body {
   }
 
   .red-logo {
+    width: 35%;
+  }
+
+  .image-1 {
     width: 35%;
   }
 }

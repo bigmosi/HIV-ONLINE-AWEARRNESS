@@ -149,12 +149,12 @@ body {
 
 .footer h2 {
   text-align: center;
-  color: #fff;
+  color: #56585c;
 }
 
 .lists {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-right: 30px;
   margin-left: 30px;
   margin-top: 20px;
@@ -162,7 +162,8 @@ body {
 
 .lists li {
   list-style: none;
-  color: #d3d3d3;
+  color: #56585c;
+  margin: 30px;
 }
 
 .lists-2 {
@@ -422,7 +423,5 @@ body {
 
   .container {
     justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
   }
 }

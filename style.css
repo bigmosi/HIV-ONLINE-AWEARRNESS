@@ -23,6 +23,15 @@ body {
   width: 100%;
 }
 
+.red-logo {
+  width: 35%;
+  text-align: center;
+}
+
+.redlogo-container {
+  text-align: center;
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -96,10 +105,10 @@ body {
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
-  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  font-family: 'cocogoose', sans-serif;
+  background: -webkit-linear-gradient(#ec5242, #ab0e2a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 }
 
 .subtitle {
@@ -131,6 +140,8 @@ body {
 .event-day h4 {
   margin-top: 15px;
   font-size: 30px;
+  color: #272a31;
+  font-weight: 500;
 }
 
 .event-day p {
@@ -138,6 +149,7 @@ body {
   font-size: 30px;
   color: #272a31;
   margin-bottom: 15px;
+  color: #272a31;
 }
 
 .background-image {
@@ -150,7 +162,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  background: #808080;
+  background-color: rgba(150, 150, 150, 0.4);
   opacity: 0.5;
 }
 
@@ -167,6 +179,10 @@ body {
   margin-top: 40px;
 }
 
+.program {
+  visibility: hidden;
+}
+
 .main h3 {
   text-align: center;
   color: #fff;
@@ -178,7 +194,8 @@ body {
   justify-content: space-between;
   margin-top: 20px;
   opacity: 0.5;
-  background: #808080;
+  background-color: rgba(150, 150, 150, 0.4);
+
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -203,7 +220,7 @@ body {
   justify-content: space-around;
   margin-top: 20px;
   opacity: 0.5;
-  background: #808080;
+  background-color: rgba(150, 150, 150, 0.4);
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -223,7 +240,7 @@ body {
   justify-content: space-between;
   margin-top: 20px;
   opacity: 0.5;
-  background: #808080;
+  background-color: rgba(150, 150, 150, 0.4);
 }
 
 .exibition h3 {
@@ -254,8 +271,8 @@ body {
 }
 
 .my-image {
-  width: 50%;
-  height: 35vh;
+  width: 30%;
+  height: 15vh;
 }
 
 .speaker {
@@ -324,6 +341,17 @@ body {
     flex-direction: column;
     text-align: left;
     width: 15%;
+    background-color: rgba(150, 150, 150, 0.4);
+    margin: 5px;
+    height: 20vh;
+  }
+
+.card-1 h3 {
+    text-align: center;
+  }
+
+.card-1 p {
+    text-align: center;
   }
 
   .card-1:hover {
@@ -336,7 +364,18 @@ body {
   .exibition {
     display: flex;
     flex-direction: column;
-    background: #808080;
+    background-color: rgba(150, 150, 150, 0.4);
+    margin: 5px;
+    height: 20vh;
+
+  }
+
+  .exibition h3 {
+    text-align: center;
+  }
+
+.exibition p {
+    text-align: center;
   }
 
   .exibition:hover {
@@ -349,7 +388,18 @@ body {
   .forum {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    background-color: rgba(150, 150, 150, 0.4);
+    margin: 5px;
+    height: 20vh;
+
+  }
+
+  .forum h3 {
+    text-align: center;
+  }
+
+  .forum p {
+    text-align: center;
   }
 
   .forum:hover {
@@ -362,6 +412,17 @@ body {
   .workshop {
     display: flex;
     flex-direction: column;
+    background-color: rgba(150, 150, 150, 0.4);
+    margin: 5px;
+    height: 20vh;
+  }
+
+.workshop p {
+    text-align: center;
+  }
+
+  .workshop h3 {
+    text-align: center;
   }
 
   .workshop:hover {
@@ -384,8 +445,8 @@ body {
   }
 
   .my-image {
-    width: 50%;
-    height: 20vh;
+    width: 30%;
+    height: 15vh;
   }
 
   .speaker-image {
@@ -501,6 +562,7 @@ body {
 
   .main-section {
     display: flex;
+    justify-content: center;
   }
 
   .center-hor {
@@ -511,9 +573,7 @@ body {
 
   .sec {
     display: flex;
-    justify-content: center;
-    position: relative;
-    left: 10%;
+    justify-content: space-around;
     margin-top: 50px;
   }
 
@@ -564,6 +624,7 @@ body {
   .program {
     text-align: center;
     margin-top: 70px;
+    visibility: visible;
   }
 
   .program a {
@@ -578,5 +639,9 @@ body {
   .footer h2 {
     color: #fff;
     text-align: center;
+  }
+
+  .red-logo {
+    width: 35%;
   }
 }

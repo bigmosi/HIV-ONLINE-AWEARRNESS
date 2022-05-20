@@ -24,7 +24,6 @@ body {
 .container-1 {
   background-color: #f8f8ff;
   padding-bottom: 50px;
-  padding-top: 20px;
 }
 
 .inquiry {
@@ -148,6 +147,11 @@ body {
   padding-top: 25px;
 }
 
+.footer h2 {
+  text-align: center;
+  color: #fff;
+}
+
 .lists {
   display: flex;
   justify-content: space-between;
@@ -183,6 +187,9 @@ body {
 }
 
 @media (min-width: 768px) {
+  body {
+    background-color: #fff;
+  }
   .desktop-header {
     display: flex;
     justify-content: space-around;
@@ -253,17 +260,16 @@ body {
   }
 
   .page-title {
-    font-family: lato, sans-serif;
     color: #ec5242;
     text-align: center;
     font-size: 80px;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    font-family: 'cocogoose', sans-serif;
+    background: -webkit-linear-gradient(#ec5242, #ab0e2a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
   }
 
   .big-title {
@@ -342,6 +348,8 @@ body {
     margin-right: 5px;
     margin-left: 5px;
     align-items: center;
+    position: relative;
+    left: 30%;
   }
 
   .about-para p {
@@ -409,5 +417,11 @@ body {
 
   .navigation-bar {
     visibility: visible;
+  }
+
+  .container {
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
   }
 }

@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;700;800&display=swap');
 
+@font-face {
+  font-family: "COCOGOOSE";
+  src:
+    url("./assets/fonts/COCOGOOSE/Cocogoose_trial.eot") format("eot"),
+    url("./assets/fonts/COCOGOOSE/Cocogoose_trial.woff") format("woff"),
+    url("./assets/fonts/COCOGOOSE/Cocogoose_trial.ttf") format("truetype"),
+    url("./assets/fonts/COCOGOOSE/Cocogoose_trial.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

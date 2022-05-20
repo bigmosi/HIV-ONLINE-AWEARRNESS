@@ -253,6 +253,7 @@ body {
   }
 
   .page-title {
+    font-family: lato, sans-serif;
     color: #ec5242;
     text-align: center;
     font-size: 80px;
